@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "satrcam" "\0"
+            VALUE "FileDescription", "SatrCam" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "satrcam" "\0"
+            VALUE "InternalName", "SatrCam" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "satrcam.exe" "\0"
-            VALUE "ProductName", "satrcam" "\0"
+            VALUE "OriginalFilename", "SatrCam.exe" "\0"
+            VALUE "ProductName", "SatrCam" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

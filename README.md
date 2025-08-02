@@ -1,4 +1,4 @@
-# satrcam
+# SatrCam
 
 A new Flutter project.
 

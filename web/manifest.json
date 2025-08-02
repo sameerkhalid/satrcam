@@ -1,6 +1,6 @@
 {
-    "name": "satrcam",
-    "short_name": "satrcam",
+    "name": "SatrCam",
+    "short_name": "SatrCam",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
