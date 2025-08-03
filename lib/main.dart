@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:gallery_saver/gallery_saver.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -87,6 +88,7 @@ class _TakePictureScreenState extends State<TakePictureScreen> {
                       try {
                         await _initializeControllerFuture;
                         final image = await _controller.takePicture();
+                        await GallerySaver.saveImage(image.path);
                         if (!mounted) return;
                         await Navigator.of(context).push(
                           MaterialPageRoute(
