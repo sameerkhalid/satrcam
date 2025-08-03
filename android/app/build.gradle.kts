@@ -9,7 +9,7 @@ android {
     namespace = "com.example.satrcam"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "29.0.13846066"
-
+    compileSdk = 36
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
